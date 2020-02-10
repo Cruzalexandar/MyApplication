@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="title1">Connect With People</string>
+    <string name="title2">Share Contacts</string>
+    <string name="title3">Create Special Moments</string>
+
+    <string name="description1">Its That Easy</string>
+    <string name="description2">Fast and easy</string>
+    <string name="description3">Group special contacts</string>
+
+    <string name="buttonText">GET STARTED</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mockup"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/mask_group3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/first_fragment_image_view"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/first_fragment_image_view"
+        app:layout_constraintBottom_toTopOf="@id/onboarding_get_started_button3">
+        <TextView
+            android:id="@+id/connect_with_people_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title3"
+            android:fontFamily="Work Sans, Regular"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="22dp" />
+
+
+        <TextView
+            android:id="@+id/its_that_simple_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:fontFamily="Work Sans, Regular"
+            android:text="@string/description3"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/onboarding_get_started_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/round_button"
+        android:text="@string/buttonText"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
